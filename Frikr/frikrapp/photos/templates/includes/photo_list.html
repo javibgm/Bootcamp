@@ -1,0 +1,8 @@
+{% for photo in photos %}
+<p>
+    <strong>{{ photo.name }}</strong><br>
+    <a href="/photos/{{ photo.pk }}">
+    <img src="{{ photo.url }}" height="100">
+    </a>
+</p>
+{% endfor %}

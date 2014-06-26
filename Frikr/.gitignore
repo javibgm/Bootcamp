@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django stuff:
+*.log
+*.pot
+
+# PyCharm
+.idea
+
+# Frikr
+frikrenv
+*.sqlite3
+uploads/
+media/*

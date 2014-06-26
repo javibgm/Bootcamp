@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head_title %}
+Photo Detail
+{% endblock %}
+
+{% block body_content %}
+<div align="center">
+    <h1>
+        {{ photo.name }}
+    </h1>
+    <img src="{{ photo.url }}" width=100%><br>
+    <strong>Author: {{ photo.owner.first_name }} {{ photo.owner.last_name }}</strong>
+</div>
+{% endblock %}
